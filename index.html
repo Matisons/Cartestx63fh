@@ -2,9 +2,15 @@
 <html>
     <head>
        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <style>
+            model-viewer{
+            width: 400px; height: 600px; margin: 0 auto;
+            }
+        </style>
+    
     </head>
 
-    <body style="width: 400px; height: 600px; margin: 0 auto;">
+    <body>
         <model-viewer 
               src="assets/scene.gltf"
               ios-src="assets/Viking_room.usdz"
